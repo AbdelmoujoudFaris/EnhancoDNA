@@ -1,9 +1,4 @@
 # EnhancoAI
-<p align="center">
-  <a href="img/Pic.jpg" target="_blank">
-    <img src="img/Pic.jpg" alt="EnhancoAI graphical abstract" width="600">
-  </a>
-</p>
 **Deep learning, molecular dynamics and AI analysis of transcription-factor cooperativity and DNA-mediated allostery.**
 
 EnhancoAI is a general-purpose research platform for investigating how
@@ -20,7 +15,11 @@ protein-DNA structures and trajectories.
 > exploratory, or an AI-based in-silico perturbation. See
 > [Limitations](#limitations).
 
-
+<p align="left">
+  <a href="img/Pic.jpg" target="_blank">
+    <img src="img/Pic.jpg" alt="EnhancoAI graphical abstract" width="600">
+  </a>
+</p>
 
 ## Overview
 
