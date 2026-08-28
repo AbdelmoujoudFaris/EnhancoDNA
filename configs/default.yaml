@@ -1,0 +1,48 @@
+project:
+  name: EnhancoAI
+
+structure:
+  protein_chains:
+    - A
+    - B
+  dna_chains:
+    - C
+    - D
+
+contacts:
+  protein_dna_cutoff: 5.0
+  protein_protein_cutoff: 5.0
+  hydrogen_bond_distance: 3.5
+  salt_bridge_distance: 4.0
+
+md:
+  trajectory_stride: 1
+  block_size: 100
+
+free_energy:
+  temperature: 300
+  n_bins: 50
+
+model:
+  architecture: hybrid
+  embedding_dim: 512
+  tasks:
+    cooperativity: true
+    mechanism: true
+    residue_importance: true
+    dna_importance: true
+  loss_weights:
+    classification: 1.0
+    regression: 1.0
+    mechanism: 1.0
+    residue: 0.5
+    dna: 0.5
+
+training:
+  epochs: 100
+  batch_size: 8
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  dropout: 0.1
+  seed: 42
+  sequence_identity_cutoff: 0.3

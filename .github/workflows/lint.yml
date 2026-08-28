@@ -1,0 +1,31 @@
+name: lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install lint tools
+        run: pip install ruff black mypy
+
+      - name: Ruff
+        run: ruff check src tests scripts
+
+      - name: Black (check only)
+        run: black --check src tests scripts
+
+      - name: Mypy (best-effort, non-blocking)
+        run: mypy src/enhancoai --ignore-missing-imports || true

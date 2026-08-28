@@ -1,0 +1,20 @@
+project:
+  name: EnhancoAI-training
+
+model:
+  architecture: cnn3d
+  embedding_dim: 256
+  tasks:
+    cooperativity: true
+    mechanism: false
+    residue_importance: false
+    dna_importance: false
+
+training:
+  epochs: 20
+  batch_size: 4
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  dropout: 0.1
+  seed: 42
+  sequence_identity_cutoff: 0.3

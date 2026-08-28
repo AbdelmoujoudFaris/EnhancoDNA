@@ -1,0 +1,11 @@
+project:
+  name: EnhancoAI-inference
+
+model:
+  architecture: hybrid
+  embedding_dim: 512
+  tasks:
+    cooperativity: true
+    mechanism: true
+    residue_importance: true
+    dna_importance: true

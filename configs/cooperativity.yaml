@@ -1,0 +1,14 @@
+project:
+  name: EnhancoAI-cooperativity
+
+free_energy:
+  temperature: 300
+  n_bins: 50
+
+# Cooperativity Score weights (section 22). Must be non-negative; renormalised to sum to 1.
+cooperativity_score_weights:
+  energetic_coupling: 0.25
+  dynamic_coupling: 0.20
+  orientation_coupling: 0.20
+  dna_communication: 0.20
+  interface_persistence: 0.15
