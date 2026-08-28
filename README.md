@@ -16,6 +16,12 @@ protein-DNA structures and trajectories.
 > exploratory, or an AI-based in-silico perturbation. See
 > [Limitations](#limitations).
 
+<p align="left">
+  <a href="img/logo.png" target="_blank">
+    <img src="img/logo.png" alt="docking-ai logo" width="600">
+  </a>
+</p>
+
 ## Overview
 
 ```mermaid
