@@ -1,7 +1,7 @@
 # EnhancoAI
-<p align="left">
+<p align="center">
   <a href="img/Pic.jpg" target="_blank">
-    <img src="img/logo.png" alt="docking-ai logo" width="600">
+    <img src="img/Pic.jpg" alt="EnhancoAI graphical abstract" width="600">
   </a>
 </p>
 **Deep learning, molecular dynamics and AI analysis of transcription-factor cooperativity and DNA-mediated allostery.**
