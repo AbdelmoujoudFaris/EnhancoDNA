@@ -1,6 +1,6 @@
 # EnhancoAI
 <p align="left">
-  <a href="img/logo.png" target="_blank">
+  <a href="img/Pic.jpg" target="_blank">
     <img src="img/logo.png" alt="docking-ai logo" width="600">
   </a>
 </p>
